@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;600;700;800&display=swap');
+
+:root {
+    --fonte-titulo: 'Source Code Pro', monospace;
+
+    --cor1: #5f6872;
+    --cor2: #6fb9a3;
+    --cor3: #84f7c0;
+    --cor4: #a5f9f0;
+    --cor5: #c1fbf9;
+};
+
+body > #titulo-principal {
+    background-color: var(--cor3);
+    font-family: var(--fonte-titulo);
+    color: rgb(0, 0, 0);
+};
